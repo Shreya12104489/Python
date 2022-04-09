@@ -7,6 +7,7 @@
 # Track the number of turns remaining.
 # If they run out of turns, provide feedback to the player. 
 # Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
+
 # from art import logo
 logo=''' 
                            ('-.    .-')     .-')                   .-') _   ,---. 
@@ -21,8 +22,10 @@ logo='''
 
 '''
  
-import random
+  
 print(logo)
+import random
+
 print("Welcome to the number guessing game!\nI am thinking of a number between 1 to 100\nChose a difficulty mode and start guessing. Type 'easy' or 'hard':")
 number=random.randint(1,100)
 level=input()
